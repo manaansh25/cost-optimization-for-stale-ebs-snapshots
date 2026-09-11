@@ -94,7 +94,6 @@ The project was initially tested manually and can be scheduled for automatic exe
 | **AWS Lambda** | Runs the cleanup logic without managing servers |
 | **Amazon EC2** | Provides instances, EBS volumes and snapshots being evaluated |
 | **Amazon EBS** | Snapshot storage being cleaned up |
-| **Amazon CloudWatch** | Can trigger the Lambda function on a schedule |
 | **AWS IAM** | Controls permissions required by the Lambda function |
 
 ---
@@ -123,8 +122,6 @@ cost-optimization-for-stale-ebs-snapshots/
 ---
 
 # Lambda Function
-
-The following is the cleaned-up version of the Lambda function used for the project:
 
 ```python
 import boto3
