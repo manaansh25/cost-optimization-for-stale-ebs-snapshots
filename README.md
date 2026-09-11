@@ -317,27 +317,27 @@ The deleted snapshot was also verified through the AWS console.
 
 # Screenshots
 
-### 1. Lambda Function / Initial Configuration
+### 1. Test Creation
 
 ![Cost Optimization 01](images/cost-opt-01.png)
 
-### 2. Lambda Execution
+### 2. Lambda Permissions
 
 ![Cost Optimization 02](images/cost-opt-02.png)
 
-### 3. Lambda Timeout Configuration
+### 3. Lambda Permission Error
 
 ![Cost Optimization 03](images/cost-opt-03.png)
 
-### 4. IAM Permissions
+### 4. Updated Permissions
 
 ![Cost Optimization 04](images/cost-opt-04.png)
 
-### 5. IAM Policy / EC2 Permissions
+### 5. Successful execution of the function
 
 ![Cost Optimization 05](images/cost-opt-05.png)
 
-### 6. Test Environment
+### 6. Test Environment/Resources-in-use
 
 ![Cost Optimization 06](images/cost-opt-06.png)
 
